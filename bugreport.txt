@@ -1,0 +1,45 @@
+date/time          : 2022-04-06, 11:11:02, 791ms
+computer name      : LAPTOP-BBKD5LGV
+user name          : touil
+registered owner   : touilsouad93@gmail.com
+operating system   : Windows 10 x64 build 22000
+system language    : French
+system up time     : 25 minutes 56 seconds
+program up time    : 49 seconds
+processors         : 16x AMD Ryzen 7 5800H with Radeon Graphics
+physical memory    : 7513/14199 MB (free/total)
+free disk space    : (C:) 874,32 GB
+display mode       : 1440x900, 32 bit
+process id         : $2bc0
+allocated memory   : 150,08 MB
+largest free block : 131025,95 GB
+executable         : heidisql.exe
+exec. date/time    : 2021-01-24 12:00
+version            : 11.2.0.6213
+compiled with      : Delphi 10.4 Sydney
+madExcept version  : 5.1.0
+callstack crc      : $94614178, $ade5a425, $ade5a425
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 0000000000D8DD98 in module 'heidisql.exe'. Read of address 0000000000000000.
+
+thread $3d60:
+00d8dd98 heidisql.exe connections     651   +3 Tconnform.CurrentParams
+00d9077d heidisql.exe connections    1187   +3 Tconnform.editDatabasesRightButtonClick
+007c41f9 heidisql.exe Vcl.ExtCtrls             TEditButton.TGlyph.Click
+006ce6dd heidisql.exe Vcl.Controls             TControl.WMLButtonUp
+0040f052 heidisql.exe System                   TObject.Dispatch
+006cd89d heidisql.exe Vcl.Controls             TControl.WndProc
+006d4afb heidisql.exe Vcl.Controls             TWinControl.WndProc
+007c4485 heidisql.exe Vcl.ExtCtrls             TEditButton.TGlyph.WndProc
+006d3c7a heidisql.exe Vcl.Controls             TWinControl.MainWndProc
+00568fd3 heidisql.exe System.Classes           StdWndProc
+7ffd6672 USER32.dll                            DispatchMessageW
+0088c25e heidisql.exe Vcl.Forms                TApplication.ProcessMessage
+0088c2d3 heidisql.exe Vcl.Forms                TApplication.HandleMessage
+0088534f heidisql.exe Vcl.Forms                TCustomForm.ShowModal
+00f00030 heidisql.exe Main           2261 +103 TMainForm.AfterFormCreate
+00f4df66 heidisql.exe heidisql        100  +37 initialization
+7ffd6563 KERNEL32.DLL                          BaseThreadInitThunk
+7ffd66be ntdll.dll                             RtlUserThreadStart
+
